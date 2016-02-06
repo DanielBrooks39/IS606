@@ -14858,6 +14858,15 @@ structure(list(genhlth = structure(c(3L, 3L, 3L, 3L,
 head(cdc)
 #Show the names of each column in the matrix
 names(cdc)
+#genhlth (Categorical, Ordinal)
+#exerany (Catergorical, Variable)
+#hlthplan (Catergorical, Variable)
+#smoke100 (Categorical, Variable)
+#height (Numerical, Continuous)
+#Wieght (Numnerical, Continous)
+#wtdesire (Numerical, Continuous)
+#age (Numerical, discrete)
+#gender (Cantegorical, variable)
 
 #Show the length (Num of cases) of an individual column
 length(cdc$genhlth)
