@@ -1,0 +1,47 @@
+---
+title: "Proposal"
+author: "Dan Brooks"
+date: "March 6, 2016"
+output: pdf_document
+---
+
+# Research Question
+***
+* I have always been interested in sports statistics. I enjoy seeing how different stats benefit teams in a variety of ways. I want to know if the amount of money that is the amount of money that a team spends on their players has anything to do with the number of wins they get during the season.
+
+* I am expecting to see a linear relationship between the team salaries and the number of wins they get throughout the season. I am expecting this because, the higher paid players should be better than the lower paid players. That shoudl result in more wins throughout the season.
+
+# What are the cases, and How many are there?
+***
+* Case: Separate the data over the years:
+    - All the NBA teams (30 in total) for the 14-15 season through the 06-07 season
+    - That is 30 teams per year of a total of 8 seasons
+    - That is 240 total data points with 30 data points per graph (1 season)
+    
+* This will allow me to get a nice spread of the different teams and how the amount of money they spend of their players effect their wins of an 8 year spread.
+
+# Describe the Methid of Data Collection
+***
+* I have tracked down to websites. One contains the number of wins that each team received over the 8 years span stated above (http://www.basketball-reference.com/leagues/NBA_wins.html). The other websites contain the information on the teams salaries for the given years above (https://www.eskimo.com/~pbender/misc/salaries07.txt). I copied that tables that were on both websites and placed them into two different Excel documents. I then covereted those documents into CSV files so I can take them into R to do my overall analysis.
+
+# What type of study is this?
+***
+* I would say that this is an Experimental study. This is an experimental study because the we are not just observing the players and seeing how many wins they get. They are actually going out and playing the games. The teams are paying them what they think they deserve and they hipefully getting a win. That makes me think that this is an experiment not just observing.
+
+# Data Source
+***
+* I have collected the data that I will be using into two Excel documents. I extracted the information that I needed from the following two websites:
+    - https://www.eskimo.com/~pbender/misc/salaries07.txt (07 can be changed to any year that you want)
+    - http://www.basketball-reference.com/leagues/NBA_wins.html
+
+# Response Variable
+***
+* The response variable in this study will be the number of wins. I want to see how the salary of each team effects the wins that team gets during that particular seacon.
+
+# Explanitory Variable
+***
+* The explanitory variable in this study will be the total salary that each team pays their players. The hgigher the salary that more wins the team should get.
+
+# Relavant Statistics
+***
+* For this season the top 6 teams in the NBA have the top 6 total salaries over the entire NBA. That makes me think that the more pricy the palyers are, the more you should win.
