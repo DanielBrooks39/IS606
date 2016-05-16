@@ -30,8 +30,8 @@ options(stringsAsFactors = FALSE, warn = -1)
 
   
 ```{r Data, include = FALSE}
-salaries <- read.csv("E:/Graduate/IS606 Stats_Prob/Project/Salaries.csv", header = TRUE)
-wins <- read.csv("E:/Graduate/IS606 Stats_Prob/Project/NBA wins.csv", header  = TRUE)
+salaries <- read.csv("https://raw.githubusercontent.com/DanielBrooks39/IS606/master/Final%20Project/Project/Salaries.csv", header = TRUE)
+wins <- read.csv("https://raw.githubusercontent.com/DanielBrooks39/IS606/master/Final%20Project/Project/NBA%20wins.csv", header  = TRUE)
 
 wins <- as.data.frame(t(wins))
 wins <- wins[-1,]
